@@ -51,4 +51,19 @@ public class CatalogoLivro {
         }
         return livroPorTitulo;
     }
+
+    public static void main(String[] args) {
+        CatalogoLivro catalogoLivro = new CatalogoLivro();
+        catalogoLivro.adicionarLivro("Livro 1", "Autor 1", 2020);
+        catalogoLivro.adicionarLivro("Livro 1", "Autor 2", 2021);
+        catalogoLivro.adicionarLivro("Livro 2", "Autor 2", 2022);
+        catalogoLivro.adicionarLivro("Livro 3", "Autor 3", 2023);
+        catalogoLivro.adicionarLivro("Livro 4", "Autor 4", 2024);
+
+        System.out.println(catalogoLivro.pesquisaPorAutor("Autor 2"));
+        System.out.println(catalogoLivro.pesquisarPorIntervaloAnos(2020, 2022));
+        System.out.println(catalogoLivro.pesquisarPorTitulo("Livro 1"));
+    }
 }
+
+
