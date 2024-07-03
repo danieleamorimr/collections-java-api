@@ -1,7 +1,4 @@
-package operacoesBasicas.list;
-
-import java.util.ArrayList;
-import java.util.List;
+package List.operacoesBasicas;
 
 public class Item {
     private String nome;

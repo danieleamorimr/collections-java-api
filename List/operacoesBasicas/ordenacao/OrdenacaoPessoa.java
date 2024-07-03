@@ -1,6 +1,4 @@
-package operacoesBasicas.list.ordenacao;
-
-import operacoesBasicas.list.Pesquisa.Livro;
+package List.operacoesBasicas.ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;

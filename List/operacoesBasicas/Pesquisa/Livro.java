@@ -1,4 +1,4 @@
-package operacoesBasicas.list.Pesquisa;
+package List.operacoesBasicas.Pesquisa;
 
 public class Livro {
     String titulo;
